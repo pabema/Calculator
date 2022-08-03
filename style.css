@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.calculadora{
+    width: 21rem;
+    height: 34rem;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    background-color: darkslategrey;
+    border: 2px solid black;
+}
+
+.marca{
+    text-align: center;
+    color: #FF1317;
+    font-size: .7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 5px;
+}
+
+form input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 90%;
+    margin: 5%;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 3rem;
+    padding: 1rem;
+    color: lime;
+    background-color: black;
+    text-align: right;
+    pointer-events: none;
+}
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+button{
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 60px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.btn-amarillo{
+    background-color: #1F4AF9;
+}
+
+.btn-amarillo:hover{
+    background-color: #1639CA;
+    transition: all .4s;
+}
+
+.btn-gris{
+    background-color: #7C88D5;
+}
+
+.btn-gris:hover{
+    background-color: #6978D5;
+    transition: all .4s;
+}
+
+.btn-c{
+    background-color: #FF1317;
+}
+
+.btn-c:hover{
+    background-color: #D21316;
+    transition: all .4s;
+}
+
+.btn-igual{
+    background-color: #2DBD22;
+    margin-left: auto;
+    flex-grow: .33;
+}
+
+.btn-igual:hover{
+    background-color: #249C1B;
+    transition: all .4s ;
+}
